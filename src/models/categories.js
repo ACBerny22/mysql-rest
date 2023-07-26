@@ -1,6 +1,5 @@
 const mysql = require('mysql');
 
-
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -12,7 +11,6 @@ var con = mysql.createConnection({
     if (err) throw err;
     console.log("Connected!");
   });
-
 
   let categoriaModel = {};
 
